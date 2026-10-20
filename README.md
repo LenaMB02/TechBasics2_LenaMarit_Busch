@@ -4,4 +4,4 @@ In this repository, I’m collecting all my notes, code snippets, and learning l
 
 ## 📂 Structure
 * `week_1/` – First steps with Arduino, LEDs and the code
-* `week_2/`- 
+* `week_2/`- coming soon
