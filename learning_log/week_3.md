@@ -1,12 +1,14 @@
-Learning Log Entry 3: 27.10.2026
+# Learning Log Entry 3: 27.10.2026
 
-Notes:
+## Notes:
 
 * getting deeper into analog signals and PWM to control component behavior
 * explored how to use serial communication to monitor readings and send inputs
 * interesting to see how different sensors like tilt switches, potentiometers, and photoresistors work with digital and analog pins
 
-What we did:
+---
+
+## What we did:
 
 * learned about PWM (Pulse-Width Modulation) and duty cycles for dimming LEDs and controlling power
 * explored the Arduino UNO pin layout (digital I/O, analog inputs, power, and serial TX/RX pins)
@@ -17,7 +19,9 @@ What we did:
 * read input data from the Serial monitor using Serial.readString() and Serial.parseInt()
 * connected a photoresistor (LDR) with a 10k resistor to measure light intensity and trigger an LED
 
-What I have learned:
+---
+
+## What I have learned:
 
 * PWM uses rapid switching on and off to simulate analog power (0–255 scale)
 * internal pull-up resistors (INPUT_PULLUP) prevent floating pins and unstable values without needing external resistors
@@ -25,7 +29,9 @@ What I have learned:
 * how to use the map() function to convert sensor ranges (e.g., 0–1023 to 0–255 for PWM)
 * photoresistors decrease in resistance as light intensity increases
 
-The code we used for fading an LED using PWM and for reading an LDR:
+---
+
+## The code we used for fading an LED using PWM and for reading an LDR:
 
 ```cpp
 /*
@@ -50,6 +56,8 @@ void loop() {
     delay(30);
   }
 }
+
+
 
 /*
 Use LDR to control an LED
