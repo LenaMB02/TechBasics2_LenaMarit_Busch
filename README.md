@@ -7,3 +7,4 @@ In this repository, I’m collecting all my notes, code snippets, and learning l
 * `week_2/`- Circuits, Ohm's law & building a traffic light (LEDs in sequence)
 * `week_3/` – PWM, analog signals, potentiometers & light sensors (LDR)
 * `week_4/`- Passive buzzers, ultrasonic distance sensors & push buttons with pull-up & pull-down
+* `week_5/` – Servo motors, `Servo.h` library, potentiometers & joystick control (with two servos)
